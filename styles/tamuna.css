@@ -1,0 +1,62 @@
+.chivo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  gap: 15px 30px;
+  max-width: 1110px;
+  margin: 150px auto;
+}
+
+.chivo-container__title {
+  margin: 0;
+  font-size: 200px;
+  color: #ffffff;
+}
+
+.chivo-container__info {
+  grid-row: 2 / 3;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.chivo-container__info p {
+  color: #ffffff;
+}
+
+.chivo-container__info span {
+  color: #bfbfbf;
+}
+
+.chivo-container__info:last-of-type {
+  gap: 18px;
+}
+
+.chivo-container__text-sample {
+  width: 635px;
+  color: #ffffff;
+  font-size: 52px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.chivo-container__alphabet {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  font-size: 28px;
+  letter-spacing: 5px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.chivo-container__alphabet--bold {
+  font-weight: bold;
+}
+
+.chivo-container__alphabet-text {
+  font-size: 18px;
+  line-height: 28px;
+  color: #c2cbe5;
+  margin: 0;
+}
